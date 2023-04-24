@@ -109,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Shared\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\lib\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
