@@ -1,6 +1,6 @@
 ﻿using DevExpress.Maui;
 using Microsoft.Maui.Controls.Compatibility.Hosting;
-using MauiSignalR.Server;
+//using MauiSignalR.Server;
 
 namespace SignalR
 {
@@ -25,7 +25,7 @@ namespace SignalR
                 {
                     effects.AddCompatibilityEffects(AppDomain.CurrentDomain.GetAssemblies());
                 })
-                .Services.AddSignalR();
+                //.Services.AddSignalR();
 
             return builder.Build();
         }
